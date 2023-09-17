@@ -650,3 +650,8 @@ For each side, use 2 M5x12 to attach 2040 aluminium extrusion to ENG-BRL_2040_30
 For each side, use 2 M5x12 to attach 2040 aluminium extrusion to ENG-BRL_2040_310/ENG-BRR_2040_310
 
 <img src="step17rfd.png" alt="Step 17:RF.D" height="300"/>
+
+
+## Next step:
+
+Go to [2.electronics](../2.electronics/electronics.md)

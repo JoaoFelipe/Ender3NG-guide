@@ -480,3 +480,6 @@ Use 2 M4 T-nut and 2 M4x6
 
 <img src="step7.png" alt="Step 7" height="300"/>
 
+## Next step:
+
+Go to [4.top](../4.top/top.md)

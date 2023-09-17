@@ -12,7 +12,7 @@ This guide has 5 parts:
 
 ## Changelog
 
-- 2023-09-16 - Add side alumininium extrusions mod
+- 2023-09-17 - Add side alumininium extrusions mod and alternative belt parts
 - 2023-09-15 - Initial version
 
 ## Disclaimers

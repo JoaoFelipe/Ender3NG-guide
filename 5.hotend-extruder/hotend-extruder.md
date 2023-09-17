@@ -138,5 +138,3 @@ I have never installed Klicky before. Try to follow the instructions here: https
 Use 2 M4 T-nut and 2 M4x8 to attach ENG-BEX to the backplate. Also use Ender 3 extruder with its screws and Nema 17 to ENG-BEX
 
 <img src="step2.png" alt="Step 2" height="300"/>
-
-

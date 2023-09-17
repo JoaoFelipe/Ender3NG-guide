@@ -376,3 +376,7 @@ Use 2 M3x12.
 <img src="step11.png" alt="Step 11" height="300"/>
 
 Note: you may need to remove it and reinsert it after inserting the bed for the wiring.
+
+## Next step:
+
+Go to [3.bed](../3.bed/bed.md).
