@@ -10,6 +10,11 @@ This guide has 5 parts:
 4. [Top frame](4.top/top.md)
 5. [Hotend/Extruder](5.hotend-extruder/hotend-extruder.md)
 
+## Changelog
+
+- 2023-09-16 - Add side alumininium extrusions mod
+- 2023-09-15 - Initial version
+
 ## Disclaimers
 
 I (@JoaoFelipe) made this guide based on the [.step file](https://ko-fi.com/s/f1be48e43a) to prepare myself to build the printer. The .step (and thus this guide) may be outdated, since the printer is currently in beta.

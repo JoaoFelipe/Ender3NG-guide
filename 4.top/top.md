@@ -97,14 +97,28 @@ Top frame with X and Y gantry.
 | [P7](#p7---eng-xcb), [G5](#g5---insert-belts) | ENG-XCB | 2 | Printed
 | [G5](#g5---insert-belts) | M4x10 | 2 | Hardware | Connect ENG-XCB to ENG-XC0
 | [G5](#g5---insert-belts) | GT2 belt 6mm | 2 | Motion | X and Y belt
-| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4 T-nut | 10 | Hardware | Connect top frame to printer
-| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4x6 | 6 | Hardware | Connect top frame to printer
-| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4x8 | 4 | Hardware | Connect top frame to printer
+| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4 T-nut | 6 | Hardware | Connect top frame to back plate
+| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4x6 | 6 | Hardware | Connect top frame to back plate
 | [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4x8 grubscrew | 2 | Hardware | Connect top frame to printer
 | [P8](#p8---eng-ecs), [G7](#g7---install-cable-strain-mount) | ENG-ECS | 1 | Printed
 | [G7](#g7---install-cable-strain-mount) | M4 T-nut | 2 | Hardware | Connect ENG-ECS to frame
 | [G7](#g7---install-cable-strain-mount) | M4x6 | 2 | Hardware | Connect ENG-ECS to frame
 
+#### RF.A - Specific parts for the Printed version of rear frames
+
+| Step | Part | Count | Type | Note |
+| ---- | ---- | ----- | ---- | ---- |
+| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4 T-nut | 4 | Hardware | Connect top frame to sides
+| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4x8 | 4 | Hardware | Connect top frame to sides
+
+#### RF.B/RF.C/RF.D - Specific parts for the 2040 aluminium extrusion versions of rear frames
+
+| Step | Part | Count | Type | Note |
+| ---- | ---- | ----- | ---- | ---- |
+| [P9:RF.B/RF.C/RF.D](#p9rfbrfcrfd---eng-tjl-and-eng-tjr), [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | ENG-TJL_2040 | 1 | Printed
+| [P9:RF.B/RF.C/RF.D](#p9rfbrfcrfd---eng-tjl-and-eng-tjr), [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | ENG-TJR_2040 | 1 | Printed
+| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4 T-nut | 16 | Hardware | Connect top frame to sides
+| [G6](#g6---mount-top-frame-to-the-rest-of-the-printer) | M4x8 | 16 | Hardware | Connect top frame to sides
 
 ## P - Printed Parts
 
@@ -167,6 +181,17 @@ Print 2.
 Electornics enclosure - cable strain
 
 <img src="eng_ecs.png" alt="ENG-ECS" height="300"/>
+
+#### P9:RF.B/RF.C/RF.D - ENG-TJL_2040 and ENG-TJR_2040
+
+**Note: these parts are only valid for the 2040 aluminium extrusion version of rear frames**
+
+ENG-TJL_2040 and ENG-TJR_2040 are mirrored parts:
+- ENG-TJL_2040: Left top joint – 2040 extrusions
+- ENG-TJR_2040: Right top joint – 2040 extrusions
+
+<img src="eng_tjl.png" alt="ENG-TJL_2040" height="300"/>
+<img src="eng_tjr.png" alt="ENG-TJR_2040" height="300"/>
 
 
 ## H - Printed Parts with Heat Inserts/Microswitches
@@ -433,11 +458,21 @@ Hold them on X Carriage with 2 ENG-XCB and 2 M4x10. Make sure you follow the pat
 #### G6 - Mount top frame to the rest of the printer
 
 - Use 6 M4 T-nut and 6 M4x6 to connect to electronics enclosure
-- Use 4 M4 T-nut and 4 M4x8 to connect to the sides
 - Use 2 M4x8 grubscrews to connect to Z linear rods
 
 <img src="step6.png" alt="Step 6" height="300"/>
 
+#### G6:RF.A - Connect top frame to the sides
+
+Use 4 M4 T-nut and 4 M4x8 to connect to the sides
+
+<img src="step6rfa.png" alt="Step 6:RF.A" height="300"/>
+
+#### G6:RF.B/RF.C/RF.D - Connect top frame to the sides
+
+Use 16 M4 T-nut and 16 M4x8 to connect top frame to the sides using ENG-TJL and ENG-TJR
+
+<img src="step6rfbcd.png" alt="Step 6:RF.B/RF.C/RF.D" height="300"/>
 
 #### G7 - Install Cable Strain Mount
 

@@ -4,6 +4,14 @@ Bottom frame and Z lift.
 
 ![Expected result](bottom.png)
 
+Note:  In the previous version of this guide, installing the rear frame ([G16](#g16---install-the-rear-frames)) was part of [Electronics/G6](../3.electronics/electronics.md#g6---attach-side-frame). It was moved here because there are 4 alternatives of rear frames, and installing the aluminium ones on the electronics enclosure without guidance would be challenging. If you are using alternative RF.A, it maybe better to attach the side frame to the electronics enclosure before attaching it to the bottom frame, as suggested before (during Electronics/G6). Here are the alternatives of rear frames:
+
+- Alternative RF.A (default): printed version
+- Alternative RF.B: 2x 350mm 2040 aluminium extrusion
+- Alternative RF.C: 2x 300mm 2040 aluminium extrusion
+- Alternative RF.D: 2x 310mm 2040 aluminium extrusion
+
+
 ## Table of Contents 
 
 - [BOM](#bom)
@@ -17,10 +25,6 @@ Bottom frame and Z lift.
 
 | Step | Part | Count | Type | Note |
 | ---- | ---- | ----- | ---- | ---- |
-| [H1](#h1---eng-blr-and-eng-blr), [G1](#g1---get-corners) | ENG-BLR | 1 | Printed |
-| [H1](#h1---eng-blr-and-eng-blr) | M4 heat insert standard | 2 | Hardware | For ENG-BLR
-| [H1](#h1---eng-blr-and-eng-blr), [G1](#g1---get-corners) | ENG-BRR| 1 | Printed |
-| [H1](#h1---eng-blr-and-eng-blr) | M4 heat insert standard | 2 | Hardware | For ENG-BRR
 | [H2](#h2---eng-blfa-and-eng-brfa), [G1](#g1---get-corners) | ENG-BLFA| 1 | Printed |
 | [H2](#h2---eng-blfa-and-eng-brfa) | M4 heat insert standard | 6 | Hardware | For ENG-BLFA
 | [H2](#h2---eng-blfa-and-eng-brfa) | M5 heat insert standard | 2 | Hardware | For ENG-BLFA
@@ -76,6 +80,32 @@ Bottom frame and Z lift.
 | [G14](#g14---add-two-bearing-systems-to-z-belt) | M5x20 | 1 | Hardware | Connect bearing to ENG-ZBT1/ENG-ZBT2
 | [G15](#g15---add-linear-rods) | Z linear rods 12x350mm | 2 | Motion
 | [G15](#g15---add-linear-rods) | M4x8 grubscrew | 2 | Hardware
+
+#### RF.A - Specific parts for the Printed version of rear frames
+
+| Step | Part | Count | Type | Note |
+| ---- | ---- | ----- | ---- | ---- |
+| [H1:RF.A](#h1rfa---eng-blr-and-eng-blr), [G1](#g1---get-corners) | ENG-BLR | 1 | Printed |
+| [H1:RF.A](#h1rfa---eng-blr-and-eng-blr) | M4 heat insert standard | 2 | Hardware | For ENG-BLR
+| [H1:RF.A](#h1rfa---eng-blr-and-eng-blr), [G1](#g1---get-corners) | ENG-BRR| 1 | Printed |
+| [H1:RF.A](#h1rfa---eng-blr-and-eng-blr) | M4 heat insert standard | 2 | Hardware | For ENG-BRR
+| [H8:RF.A](#h8rfa---eng-ftl-and-eng-ftr), [G16:RF.A](#g16rfa---printed-version) | ENG-FTL | 1 | Printed
+| [H8:RF.A](#h8rfa---eng-ftl-and-eng-ftr) | M4 heat insert standard | 11 | Hardware | For ENG-FTL
+| [H8:RF.A](#h8rfa---eng-ftl-and-eng-ftr) | M3 heat insert standard | 2 | Hardware | For ENG-FTL
+| [H8:RF.A](#h8rfa---eng-ftl-and-eng-ftr), [G16:RF.A](#g16rfa---printed-version) | ENG-FTR | 1 | Printed
+| [H8:RF.A](#h8rfa---eng-ftl-and-eng-ftr) | M4 heat insert standard | 11 | Hardware | For ENG-FTR
+| [H8:RF.A](#h8rfa---eng-ftl-and-eng-ftr) | M3 heat insert standard | 2 | Hardware | For ENG-FTR
+| [G16:RF.A](#g16rfa---printed-version) | M4x16 | 4 | Hardware | Connect ENG-FTL to ENG-BRL
+| [G16:RF.A](#g16rfa---printed-version) | M4x16 | 4 | Hardware | Connect ENG-FTR to ENG-BRR
+
+#### RF.B - Specific parts for the 350mm 2040 aluminium extrusion version of rear frames
+
+| Step | Part | Count | Type | Note |
+| ---- | ---- | ----- | ---- | ---- |
+| [H1:RF.B](#h1rfb---eng-blr_2040_350-and-eng-brr_2040_350), [G1](#g1---get-corners) | ENG-BLR_2040_350 | 1 | Printed |
+| [H1:RF.B](#h1rfb---eng-blr_2040_350-and-eng-brr_2040_350), [G1](#g1---get-corners) | ENG-BRR_2040_350| 1 | Printed |
+| [G16](#g16rfb---350mm-2040-aluminium-extrusion-version-of-rear-frames) | 350mm 2040 aluminium extrusion | 2 | Hardware | Bought separately - it is not part of the Ender 3
+
 
 #### Ender 3 Pro Specific parts
 
@@ -160,7 +190,9 @@ ENG-BLFB and ENG-BRFB are mirrored parts:
 
 This section lists printed parts that require an initial preparation, such as adding heat inserts or installing microswitches.
 
-#### H1 - ENG-BLR and ENG-BLR
+#### H1:RF.A - ENG-BLR and ENG-BRR
+
+**Note: these parts are only valid for the printed version of rear frames (RF.A)**
 
 ENG-BLR and ENG-BRR are mirrored parts:
 
@@ -176,6 +208,20 @@ Each part has 2 standard M4 heat inserts, as follows:
 <img src="eng_blr-back.png" alt="ENG-BLR" height="200"/>
 <img src="eng_blr-backside.png" alt="ENG-BLR" height="200"/>
 <img src="eng_blr-bottom.png" alt="ENG-BLR" height="200"/>
+
+#### H1.RF.B - ENG-BLR_2040_350 and ENG-BRR_2040_350
+
+**Note: these parts are only valid for the 350mm 2040 aluminium extrusion version of rear frames**
+
+ENG-BLR_2040_350 and ENG-BRR_2040_350 are mirrored parts:
+
+- ENG-BLR_2040_350: Bottom frame left rear corner – 2040 extrusion
+- ENG-BRR_2040_350: Bottom frame right rear corner – 2040 extrusion
+
+<img src="eng_blr_2040_350.png" alt="ENG-BLR_2040_350" height="200"/>
+<img src="eng_brr_2040_350.png" alt="ENG-BRR_2040_350" height="200"/>
+
+Each part has 2 built-in supports that you must cut off before installing.
 
 #### H2 - ENG-BLFA and ENG-BRFA
 
@@ -251,13 +297,35 @@ OPTIONAL: You may also add a microswitch D2F-L to serve as a max Z endstop with 
 
 <img src="eng_bza-switch.png" alt="ENG-BZA" height="200"/>
 
+
+#### H8:RF.A - ENG-FTL and ENG-FTR
+
+ENG-FTL and ENG-FTR are mirrored parts.
+
+<img src="eng_ftl.png" alt="ENG-FTL" height="400"/>
+<img src="eng_ftr.png" alt="ENG-FTR" height="400"/>
+
+Each part has 11 standand M4 inserts and 2 standard M3 inserts. The first figure below shows M4 ones, and the second shows M3 ones.
+
+<img src="eng_ftl-m4inserts.png" alt="ENG-FTL - M4 Heat Inserts" height="400"/>
+<img src="eng_ftl-m3inserts.png" alt="ENG-FTL - M3 Heat Inserts" height="400"/>
+
+
 ## G - Guide
 
 #### G1 - Get corners
 
-Use parts ENG-BLR, ENG-BRR, ENG-BLFA, and ENG-BRFA.
+For the front, use parts ENG-BLFA, and ENG-BRFA.
+
+For the rear, it varies according to the rear frame alternative:
+- RF.A: ENG-BLR, ENG-BRR
+- RF.B: ENG-BLR_2040_350, ENG-BRR_2040_350
+- RF.C: ENG-BLR_2040_300, ENG-BRR_2040_300
+- RF.D: ENG-BLR_2040_310, ENG-BRR_2040_310
 
 <img src="step1.png" alt="Step 1" height="300"/>
+
+The figure shows RF.A.
 
 #### G2 - Install 4040 Base Frames to the sides
 
@@ -362,7 +430,6 @@ Prepare each leadscrew by making a "sandwich" with 2 608 2RS bearings and 1 ENG-
 
 At this moment, the leadscrews may not stay in position, but the next steps should help with that.
 
-
 #### G10 - Mount tensioner
 
 <img src="step10.png" alt="Step 10" height="300"/>
@@ -428,3 +495,18 @@ Insert linear rods and close set each of them in position with 1 M4x8 grubscrew.
 
 <img src="step15.png" alt="Step 15" height="300"/>
 
+#### G16 - Install the Rear Frames
+
+The installation changes according to the desired rear frame
+
+#### G16:RF.A - Printed version of Rear Frames
+
+For each side, use 4 M4x16 to attach ENG-FTL/ENG-FTR to ENG-BRL/ENG-BRR. 
+
+<img src="step16rfa.png" alt="Step 16:RF.A" height="300"/>
+
+#### G16:RF.B - 350mm 2040 aluminium extrusion version of rear frames
+
+For each side, use 4 M4 T-nut and 4 M4x8 to attach 2040 aluminium extrusion to ENG-BRL_2040_350/ENG-BRR_2040_350
+
+<img src="step16rfb.png" alt="Step 16:RF.B" height="300"/>

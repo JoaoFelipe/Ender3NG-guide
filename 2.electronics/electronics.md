@@ -38,34 +38,24 @@ Rear part of the printer
 | [H3](#h3---eng-ema-and-eng-emb), [G5](#g5---attach-eng-ema-and-eng-emb) | ENG-EMB | 1 | Printed
 | [H3](#h3---eng-ema-and-eng-emb) | M3 heat insert standard | 5 | Hardware | For ENG-EMB
 | [G5](#g5---attach-eng-ema-and-eng-emb) | M3x6 | 4 | Hardware | Connect ENG-EMA and ENG-EMB to ENG-ESA and ENG-ESB
-| [P9](#p9---eng-est), [G6](#g6---attach-back-plate-to-the-rear-part-of-the-bottom-frame) | ENG-EST | 1 | Printed
-| [G6](#g6---attach-back-plate-to-the-rear-part-of-the-bottom-frame) | M4x8 | 4 | Hardware | Connect Back plate to Bottom frame
-| [G6](#g6---attach-back-plate-to-the-rear-part-of-the-bottom-frame) | M4 T-nut | 4 | Hardware | Connect Back plate to Bottom frame
-| [H4](#h4---eng-ftl-and-eng-ftr), [G7](#g7---attach-side-frame) | ENG-FTL | 1 | Printed
-| [H4](#h4---eng-ftl-and-eng-ftr) | M4 heat insert standard | 11 | Hardware | For ENG-FTL
-| [H4](#h4---eng-ftl-and-eng-ftr) | M3 heat insert standard | 2 | Hardware | For ENG-FTL
-| [G7](#g7---attach-side-frame) | M4x16 | 4 | Hardware | Connect ENG-FTL to ENG-BRL
-| [G7](#g7---attach-side-frame) | M4x8 | 3 | Hardware | Connect ENG-FTL to ENG-EPA1
-| [G7](#g7---attach-side-frame) | M4x8 | 1 | Hardware | Connect ENG-FTL to ENG-EPA2
-| [G7](#g7---attach-side-frame) | M3x6 | 2 | Hardware | Connect ENG-FTL to ENG-ESA
-| [H4](#h4---eng-ftl-and-eng-ftr), [G7](#g7---attach-side-frame) | ENG-FTR | 1 | Printed
-| [H4](#h4---eng-ftl-and-eng-ftr) | M4 heat insert standard | 11 | Hardware | For ENG-FTR
-| [H4](#h4---eng-ftl-and-eng-ftr) | M3 heat insert standard | 2 | Hardware | For ENG-FTR
-| [G7](#g7---attach-side-frame) | M4x16 | 4 | Hardware | Connect ENG-FTR to ENG-BRR
-| [G7](#g7---attach-side-frame) | M4x8 | 3 | Hardware | Connect ENG-FTR to ENG-EPB1
-| [G7](#g7---attach-side-frame) | M4x8 | 1 | Hardware | Connect ENG-FTR to ENG-EPB2
-| [G7](#g7---attach-side-frame) | M3x6 | 2 | Hardware | Connect ENG-FTL to ENG-ESB
-| [H5](#h5---eng-efba-and-eng-efbb), [G8.1](#g81---prepare-bottom-frame-rim) | ENG-EFBA | 1 | Printed
-| [H5](#h5---eng-efba-and-eng-efbb), [G8.1](#g81---prepare-bottom-frame-rim) | ENG-EFBB | 1 | Printed
-| [H5](#h5---eng-efba-and-eng-efbb) | M3 heat insert standard | 4 | For ENG-EFBA and ENG-EFBB
+| [G6](#g6---attach-side-frame) | M4x8 | 3 | Hardware | Connect left side to ENG-EPA1
+| [G6](#g6---attach-side-frame) | M4x8 | 1 | Hardware | Connect left side to ENG-EPA2
+| [G6](#g6---attach-side-frame) | M4x8 | 3 | Hardware | Connect right side to ENG-EPB1
+| [G6](#g6---attach-side-frame) | M4x8 | 1 | Hardware | Connect right side to ENG-EPB2
+| [P9](#p9---eng-est), [G7](#g7---attach-back-plate-to-the-rear-part-of-the-bottom-frame) | ENG-EST | 1 | Printed
+| [G7](#g7---attach-back-plate-to-the-rear-part-of-the-bottom-frame) | M4x8 | 4 | Hardware | Connect Back plate to Bottom frame
+| [G7](#g7---attach-back-plate-to-the-rear-part-of-the-bottom-frame) | M4 T-nut | 4 | Hardware | Connect Back plate to Bottom frame
+| [H4](#h4---eng-efba-and-eng-efbb), [G8.1](#g81---prepare-bottom-frame-rim) | ENG-EFBA | 1 | Printed
+| [H4](#h4---eng-efba-and-eng-efbb), [G8.1](#g81---prepare-bottom-frame-rim) | ENG-EFBB | 1 | Printed
+| [H4](#h4---eng-efba-and-eng-efbb) | M3 heat insert standard | 4 | For ENG-EFBA and ENG-EFBB
 | [P10](#p10---eng-efj), [G8.1](#g81---prepare-bottom-frame-rim) | ENG-EFJ | 1 | Printed
 | [G8.2](#g82---screw-bottom-frame-rim-to-back-plate) | M4x10 | 4 | Hardware | Connect ENG-EFBA, ENG-EFBB, and ENG-EFJ to back plate
-| [H6](#h6---eng-efla-and-eng-efrb), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFLA | 1 | Printed
-| [H6](#h6---eng-efla-and-eng-efrb), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFRB | 1 | Printed
-| [H6](#h6---eng-efla-and-eng-efrb) | M3 heat insert standard | 4 | For ENG-EFLA and ENG-EFRB
-| [H7](#h7---eng-eflb-and-eng-efra), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFLB | 1 | Printed
-| [H7](#h7---eng-eflb-and-eng-efra), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFRA | 1 | Printed
-| [H7](#h7---eng-eflb-and-eng-efra) | M3 heat insert standard | 2 | For ENG-EFLB and ENG-EFRA
+| [H5](#h5---eng-efla-and-eng-efrb), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFLA | 1 | Printed
+| [H5](#h5---eng-efla-and-eng-efrb), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFRB | 1 | Printed
+| [H5](#h5---eng-efla-and-eng-efrb) | M3 heat insert standard | 4 | For ENG-EFLA and ENG-EFRB
+| [H6](#h6---eng-eflb-and-eng-efra), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFLB | 1 | Printed
+| [H6](#h6---eng-eflb-and-eng-efra), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFRA | 1 | Printed
+| [H6](#h6---eng-eflb-and-eng-efra) | M3 heat insert standard | 2 | For ENG-EFLB and ENG-EFRA
 | [P10](#p10---eng-efj), [#G9.1](#g91---prepare-side-frame-rims) | ENG-EFJ | 2 | Printed
 | [G9.2](#g92---screw-side-frame-rims-to-back-plate) | M4x10 | 6 | Hardware | Connect ENG-EFLA, ENG-EFRB, ENG-EFLB, ENG-EFRA, 2 ENG-EFJ to back plates
 | [P11](#p11---eng-kpm), [G10.1](#g101---attach-eng-kpm-to-the-back-plate) | ENG-KPM | 1 | Printed
@@ -75,6 +65,19 @@ Rear part of the printer
 | [P13](#p13---eng-ebc), [G11](#g11---attach-eng-ebc-to-back-plate) | ENG-EBC | 1 | Printed
 | [G11](#g11---attach-eng-ebc-to-back-plate) | M3x12 | 2 | Hardware | Connect ENG-EBC to ENG-EPA1
 
+#### RF.A - Specific parts for the Printed version of rear frames
+
+| Step | Part | Count | Type | Note |
+| ---- | ---- | ----- | ---- | ---- |
+| [G6](#g6---attach-side-frame) | M3x6 | 2 | Hardware | Connect ENG-FTL to ENG-ESA
+| [G6](#g6---attach-side-frame) | M3x6 | 2 | Hardware | Connect ENG-FTR to ENG-ESB
+
+#### RF.B/RF.C/RF.D - Specific parts for the 2040 aluminium extrusion versions of rear frames
+
+| Step | Part | Count | Type | Note |
+| ---- | ---- | ----- | ---- | ---- |
+| [G6](#g6---attach-side-frame) | M4 T-nut | 8 | Hardware | Connect sides to back plate
+| [G9.2](#g92---screw-side-frame-rims-to-back-plate) | M4 T-nut | 6 | Hardware | Connect frame rim to sides
 
 #### Ender 3 Pro Specific parts
 
@@ -177,19 +180,7 @@ Each part has 5 standard M3 heat inserts.
 
 <img src="eng_ema-heatinserts.png" alt="ENG-EMA Heat Inserts" height="100"/>
 
-#### H4 - ENG-FTL and ENG-FTR
-
-ENG-FTL and ENG-FTR are mirrored parts.
-
-<img src="eng_ftl.png" alt="ENG-FTL" height="400"/>
-<img src="eng_ftr.png" alt="ENG-FTR" height="400"/>
-
-Each part has 11 standand M4 inserts and 2 standard M3 inserts. The first figure below shows M4 ones, and the second shows M3 ones.
-
-<img src="eng_ftl-m4inserts.png" alt="ENG-FTL - M4 Heat Inserts" height="400"/>
-<img src="eng_ftl-m3inserts.png" alt="ENG-FTL - M3 Heat Inserts" height="400"/>
-
-#### H5 - ENG-EFBA and ENG-EFBB
+#### H4 - ENG-EFBA and ENG-EFBB
 
 ENG-EFBA and ENG-EFBB are mirrored parts.
 
@@ -198,7 +189,7 @@ ENG-EFBA and ENG-EFBB are mirrored parts.
 
 Each part has 2 standerd M3 heat inserts, as shown above.
 
-#### H6 - ENG-EFLA and ENG-EFRB
+#### H5 - ENG-EFLA and ENG-EFRB
 
 ENG-EFLA and ENG-EFRB are mirrored parts.
 
@@ -207,7 +198,7 @@ ENG-EFLA and ENG-EFRB are mirrored parts.
 
 Each part has 2 standerd M3 heat inserts, as shown above.
 
-#### H7 - ENG-EFLB and ENG-EFRA
+#### H6 - ENG-EFLB and ENG-EFRA
 
 ENG-EFLB and ENG-EFRA are mirrored parts.
 
@@ -263,19 +254,25 @@ Use 4 M3x6 to attach ENG-EMA and ENG-EMB to ENG-ESA and ENG-ESB
 
 <img src="step5.png" alt="Step 5" height="300"/>
 
-#### G6 - Attach Back plate to the rear part of the bottom frame
+#### G6 - Attach side frame
 
-Use 4 M4x8, 4 M4 T-nuts, and add ENG-EST in the proper position.
+For each side:
+
+- Use 3 M4x8 to attach side to ENG-EPA1/ENG-EPB1. 
+- Use 1 M4x8 to attach side to ENG-EPA2/ENG-EPB2. 
 
 <img src="step6.png" alt="Step 6" height="300"/>
 
-#### G7 - Attach side frame
+If you are using aluminium extrusion sides (RF.B, RF.C, RF.D), use 4 M4 T-nuts in each side too. Prepare them in advance and slide back plate into position.
 
-For each side:
-- Use 4 M4x16 to attach ENG-FTL/ENG-FTR to ENG-BRL/ENG-BRR (bottom corners). 
-- Use 3 M4x8 to attach ENG-FTL/ENG-FTR to ENG-EPA1/ENG-EPB1. 
-- Use 1 M4x8 to attach ENG-FTL/ENG-FTR to ENG-EPA2/ENG-EPB2. 
-- Use 2 M3x6 to attach ENG-FLT/ENG-FTR to ENG-ESA/ENG-ESB. 
+If you are using printed version (RF.A), use 2 M3x6 to attach ENG-FLT/ENG-FTR to ENG-ESA/ENG-ESB. 
+
+<img src="step6rfa.png" alt="Step 6:RF.A" height="300"/>
+![Alt text](image.png)
+
+#### G7 - Attach Back plate to the rear part of the bottom frame
+
+Use 4 M4x8, 4 M4 T-nuts, and add ENG-EST in the proper position.
 
 <img src="step7.png" alt="Step 7" height="300"/>
 
@@ -307,6 +304,8 @@ Glue 1 ENG-EFJ to ENG-EFRA and ENG-EFRB.
 #### G9.2 - Screw Side Frame Rims to Back Plate
 
 Use 6 M4x10.
+
+If you are using aluminium extrusion sides (RF.B, RF.C, RF.D), use 6 M4 T-nuts.
 
 <img src="step9.2.png" alt="Step 9.2" height="300"/>
 
