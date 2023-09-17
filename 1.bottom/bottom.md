@@ -109,7 +109,30 @@ And alternatives for the type of the source printer:
 | ---- | ---- | ----- | ---- | ---- |
 | [H1:RF.B](#h1rfb---eng-blr_2040_350-and-eng-brr_2040_350), [G1](#g1---get-corners) | ENG-BLR_2040_350 | 1 | Printed |
 | [H1:RF.B](#h1rfb---eng-blr_2040_350-and-eng-brr_2040_350), [G1](#g1---get-corners) | ENG-BRR_2040_350| 1 | Printed |
+| [G5](#g5---install-feet) | M4 T-nut | 2 | Hardware | Connect rear feet to base frames
 | [G17](#g17rfb---350mm-2040-aluminium-extrusion-version-of-rear-frames) | 350mm 2040 aluminium extrusion | 2 | Hardware | Bought separately - it is not part of the Ender 3
+| [G17](#g17rfb---350mm-2040-aluminium-extrusion-version-of-rear-frames) | M4x8 | 8 | Hardware | Connect 2040 to Bottom
+| [G17](#g17rfb---350mm-2040-aluminium-extrusion-version-of-rear-frames) | M4 T-nut | 8 | Hardware | Connect 2040 to Bottom
+
+#### RF.C - Specific parts for the 300mm 2040 aluminium extrusion version of rear frames
+
+| Step | Part | Count | Type | Note |
+| ---- | ---- | ----- | ---- | ---- |
+| [H1:RF.C](#h1rfc---eng-blr_2040_300-and-eng-brr_2040_300), [G1](#g1---get-corners) | ENG-BLR_2040_300 | 1 | Printed |
+| [H1:RF.C](#h1rfc---eng-blr_2040_300-and-eng-brr_2040_300), [G1](#g1---get-corners) | ENG-BRR_2040_300| 1 | Printed |
+| [G17](#g17rfb---350mm-2040-aluminium-extrusion-version-of-rear-frames) | 300mm 2040 aluminium extrusion | 2 | Hardware | Bought separately - it is not part of the Ender 3
+| [G17](#g17rfb---350mm-2040-aluminium-extrusion-version-of-rear-frames) | M5x12 | 4 | Hardware | Connect 2040 to Bottom
+
+
+#### RF.D - Specific parts for the 310mm 2040 aluminium extrusion version of rear frames
+
+| Step | Part | Count | Type | Note |
+| ---- | ---- | ----- | ---- | ---- |
+| [H1:RF.D](#h1rfd---eng-blr_2040_310-and-eng-brr_2040_310), [G1](#g1---get-corners) | ENG-BLR_2040_310 | 1 | Printed |
+| [H1:RF.D](#h1rfd---eng-blr_2040_310-and-eng-brr_2040_310), [G1](#g1---get-corners) | ENG-BRR_2040_310 | 1 | Printed |
+| [G17](#g17rfb---350mm-2040-aluminium-extrusion-version-of-rear-frames) | 310mm 2040 aluminium extrusion | 2 | Hardware | Bought separately - it is not part of the Ender 3
+| [G17](#g17rfb---350mm-2040-aluminium-extrusion-version-of-rear-frames) | M5x12 | 4 | Hardware | Connect 2040 to Bottom
+
 
 #### Z.S - Specific parts for short Z belt (1040mm)
 
@@ -261,6 +284,34 @@ ENG-BLR_2040_350 and ENG-BRR_2040_350 are mirrored parts:
 
 <img src="eng_blr_2040_350.png" alt="ENG-BLR_2040_350" height="200"/>
 <img src="eng_brr_2040_350.png" alt="ENG-BRR_2040_350" height="200"/>
+
+Each part has 2 built-in supports that you must cut off before installing.
+
+#### H1.RF.C - ENG-BLR_2040_300 and ENG-BRR_2040_300
+
+**Note: these parts are only valid for the 300mm 2040 aluminium extrusion version of rear frames**
+
+ENG-BLR_2040_300 and ENG-BRR_2040_300 are mirrored parts:
+
+- ENG-BLR_2040_300: Bottom frame left rear corner – 2040 extrusion
+- ENG-BRR_2040_300: Bottom frame right rear corner – 2040 extrusion
+
+<img src="eng_blr_2040_300.png" alt="ENG-BLR_2040_300" height="200"/>
+<img src="eng_brr_2040_300.png" alt="ENG-BRR_2040_300" height="200"/>
+
+Each part has 2 built-in supports that you must cut off before installing.
+
+#### H1.RF.D - ENG-BLR_2040_310 and ENG-BRR_2040_310
+
+**Note: these parts are only valid for the 310mm 2040 aluminium extrusion version of rear frames**
+
+ENG-BLR_2040_310 and ENG-BRR_2040_310 are mirrored parts:
+
+- ENG-BLR_2040_310: Bottom frame left rear corner – 2040 extrusion
+- ENG-BRR_2040_310: Bottom frame right rear corner – 2040 extrusion
+
+<img src="eng_blr_2040_310.png" alt="ENG-BLR_2040_310" height="200"/>
+<img src="eng_brr_2040_310.png" alt="ENG-BRR_2040_310" height="200"/>
 
 Each part has 2 built-in supports that you must cut off before installing.
 
@@ -448,7 +499,9 @@ The positioning here is tricky. You may need to change the position later, to pr
 
 #### G5 - Install feet
 
-Use 4 M4x12 screws, 4 M4 washers, 4 rubber feet
+Use 4 M4x12 screws, 4 M4 washers, 4 rubber feet.
+
+Note: The rear feet will not fit RF.B (version with 350mm 2040 aluminium extrusion). You can try to use 2 M5x12 screws and 2 M5 washers. Or you can move it to the frame and use 2 M4 T-nuts. In the BOM, I went with the second option.
 
 <img src="step5.png" alt="Step 5" height="300"/>
 
@@ -585,3 +638,15 @@ For each side, use 4 M4x16 to attach ENG-FTL/ENG-FTR to ENG-BRL/ENG-BRR.
 For each side, use 4 M4 T-nut and 4 M4x8 to attach 2040 aluminium extrusion to ENG-BRL_2040_350/ENG-BRR_2040_350
 
 <img src="step17rfb.png" alt="Step 17:RF.B" height="300"/>
+
+#### G17:RF.C - 300mm 2040 aluminium extrusion version of rear frames
+
+For each side, use 2 M5x12 to attach 2040 aluminium extrusion to ENG-BRL_2040_300/ENG-BRR_2040_300
+
+<img src="step17rfc.png" alt="Step 17:RF.C" height="300"/>
+
+#### G17:RF.D - 310mm 2040 aluminium extrusion version of rear frames
+
+For each side, use 2 M5x12 to attach 2040 aluminium extrusion to ENG-BRL_2040_310/ENG-BRR_2040_310
+
+<img src="step17rfd.png" alt="Step 17:RF.D" height="300"/>

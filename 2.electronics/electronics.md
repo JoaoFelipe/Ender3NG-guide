@@ -79,19 +79,19 @@ Rear part of the printer
 | [G6](#g6---attach-side-frame) | M4 T-nut | 8 | Hardware | Connect sides to back plate
 | [G9.2](#g92---screw-side-frame-rims-to-back-plate) | M4 T-nut | 6 | Hardware | Connect frame rim to sides
 
-#### Ender 3 Pro Specific parts
+#### E3.P - Specific parts for Ender 3 Pro
 
 | Step | Part | Count | Type | Note |
 | ---- | ---- | ----- | ---- | ---- |
 | [P5](#p5---eng-din1), [G3](#g3---add-3-eng-din1-and-the-electronics-mounts) | ENG-DIN1 | 2 | Printed
-| [P7](#p7---ender-3-pro-only-eng-psue3p), [G3](#g3---add-3-eng-din1-and-the-electronics-mounts) | ENG-PSUE3P | 1 | Printed
+| [P7:E3.P](#p7e3p---eng-psue3p), [G3](#g3---add-3-eng-din1-and-the-electronics-mounts) | ENG-PSUE3P | 1 | Printed
 | [G3](#g3---add-3-eng-din1-and-the-electronics-mounts) | M3x8 | 4 | Hardware | Connect ENG-PSUE3P to ENG-DIN1
 
-#### OG Ender 3 Specific parts
+#### E3.O - Specific parts for OG Ender 3
 
 | Step | Part | Count | Type | Note |
 | ---- | ---- | ----- | ---- | ---- |
-| [P8](#p8---og-ender-3-only-eng-psue3), [G3](#g3---add-3-eng-din1-and-the-electronics-mounts) | ENG-PSUE3 | 2 | Printed
+| [P8:E3.O](#p8e3o---eng-psue3), [G3](#g3---add-3-eng-din1-and-the-electronics-mounts) | ENG-PSUE3 | 2 | Printed
 | [P5](#p5---eng-din1), [G3](#g3---add-3-eng-din1-and-the-electronics-mounts) | ENG-DIN1 | 0/2 | Printed | It may be required to hold PSUE3
 | [G3](#g3---add-3-eng-din1-and-the-electronics-mounts) | M3x8 | 0/4 | Hardware | It may be required to hold PSUE3
 
@@ -101,53 +101,83 @@ This section just lists the printed parts that do not require any additional pre
 
 #### P1 - ENG-EPB1
 
+Electronics enclosure - panel B1
+
 <img src="eng_epb1.png" alt="ENG-EPB1" height="200"/>
 
 #### P2 - ENG-EPB2
+
+Electronics enclosure - panel B2
 
 <img src="eng_epb2.png" alt="ENG-EPB2" height="200"/>
 
 #### P3 - ENG-EPA1
 
+Electronics enclosure - panel A1
+
 <img src="eng_epa1.png" alt="ENG-EPA1" height="200"/>
 
 #### P4 - ENG-EPA2
+
+Electronics enclosure - panel A2
 
 <img src="eng_epa2.png" alt="ENG-EPA2" height="200"/>
 
 #### P5 - ENG-DIN1
 
+DIN rail mount
+
 <img src="eng_din1.png" alt="ENG-DIN1" height="200"/>
 
 #### P6 - ENG-MBE3
 
+MOTHERBOARD
+
 <img src="eng_mbe3.png" alt="ENG-MBE3" height="200"/>
 
-#### P7 - (Ender 3 Pro only) ENG-PSUE3P
+#### P7:E3.P - ENG-PSUE3P
+
+**Note: This part is only valid for Ender 3 Pro**
+
+PSU MOUNT
 
 <img src="eng_psue3p.png" alt="ENG-PSUE3P" height="200"/>
 
-#### P8 - (OG Ender 3 only) ENG-PSUE3
+#### P8:E3.O - ENG-PSUE3
+
+**Note: This part is only valid for OG Ender 3**
+
+50mm PSU mount
 
 <img src="eng_psue3.png" alt="ENG-PSUE3" height="200"/>
 
 #### P9 - ENG-EST
 
+Electronics enclosure – stepper cable cover
+
 <img src="eng_est.png" alt="ENG-EST" height="100"/>
 
 #### P10 - ENG-EFJ
+
+Electronics enclosure - frame joint
 
 <img src="eng_efj.png" alt="ENG-EFJ" height="200"/>
 
 #### P11 - ENG-KPM
 
+Klicky probe – dock mount
+
 <img src="eng_kpm.png" alt="ENG-KPM" height="200"/>
 
 #### P12 - ENG-KPD
 
+Klicky probe - dock original
+
 <img src="eng_kpd.png" alt="ENG-KPD" height="200"/>
 
 #### P13 - ENG-EBC
+
+Electronics enclosure – bed cable
 
 <img src="eng_ebc.png" alt="ENG-EBC" height="200"/>
 
@@ -157,6 +187,8 @@ This section lists printed parts that require an initial preparation, such as ad
 
 #### H1 - ENG-ESA
 
+Electronics enclosure - stepper cover A
+
 <img src="eng_esa.png" alt="ENG-ESA" height="200"/>
 
 This part has 4 standard M3 heat inserts and 2 short M3 heat inserts. The standard ones are visible in the figure above. The short ones are on the side:
@@ -165,13 +197,18 @@ This part has 4 standard M3 heat inserts and 2 short M3 heat inserts. The standa
 
 #### H2 - ENG-ESB
 
+Electronics enclosure - stepper cover B
+
 <img src="eng_esb.png" alt="ENG-ESB" height="200"/>
 
 This part has 4 standard M3 heat inserts that are visible in the figure above.
 
 #### H3 - ENG-EMA and ENG-EMB
 
-ENG-EMA and ENG-EMB are mirrored parts.
+ENG-EMA and ENG-EMB are mirrored parts:
+
+- ENG-EMA: Electronics enclosure - frame mount part A
+- ENG-EMB: Electronics enclosure - frame mount part B
 
 <img src="eng_ema.png" alt="ENG-EMA" height="100"/>
 <img src="eng_emb.png" alt="ENG-EMB" height="100"/>
@@ -182,7 +219,10 @@ Each part has 5 standard M3 heat inserts.
 
 #### H4 - ENG-EFBA and ENG-EFBB
 
-ENG-EFBA and ENG-EFBB are mirrored parts.
+ENG-EFBA and ENG-EFBB are mirrored parts:
+
+- ENG-EFBA: Electronics enclosure - frame rim bottom part A
+- ENG-EFBB: Electronics enclosure - frame rim bottom part B
 
 <img src="eng_efba.png" alt="ENG-EFBA" height="100"/>
 <img src="eng_efbb.png" alt="ENG-EFBB" height="100"/>
@@ -191,7 +231,10 @@ Each part has 2 standerd M3 heat inserts, as shown above.
 
 #### H5 - ENG-EFLA and ENG-EFRB
 
-ENG-EFLA and ENG-EFRB are mirrored parts.
+ENG-EFLA and ENG-EFRB are mirrored parts:
+
+- ENG-EFLA: Electronics enclosure - frame rim left part A
+- ENG-EFRB: Electronics enclosure - frame rim right part B
 
 <img src="eng_efla.png" alt="ENG-EFLA" height="400"/>
 <img src="eng_efrb.png" alt="ENG-EFRB" height="400"/>
@@ -200,7 +243,10 @@ Each part has 2 standerd M3 heat inserts, as shown above.
 
 #### H6 - ENG-EFLB and ENG-EFRA
 
-ENG-EFLB and ENG-EFRA are mirrored parts.
+ENG-EFLB and ENG-EFRA are mirrored parts:
+
+- ENG-EFLB: Electronics enclosure - frame rim left part B
+- ENG-EFRA: Electronics enclosure - frame rim right part A
 
 <img src="eng_eflb.png" alt="ENG-EFLB" height="400"/>
 <img src="eng_efra.png" alt="ENG-EFRA" height="400"/>
