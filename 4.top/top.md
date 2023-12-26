@@ -482,4 +482,4 @@ Use 2 M4 T-nut and 2 M4x6
 
 ## Next step:
 
-Go to [4.top](../4.top/top.md)
+Go to [5.hotend-extruder](../5.hotend-extruder/hotend-extruder.md)
